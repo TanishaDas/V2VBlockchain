@@ -57,21 +57,6 @@ class Blockchain:
 
         return True
 
-class SecureContract:
-    def __init__(self, sender, recipient, amount):
-        self.sender = sender
-        self.recipient = recipient
-        self.amount = amount
-
-    def get_sender(self):
-        return self.sender
-
-    def get_recipient(self):
-        return self.recipient
-
-    def get_amount(self):
-        return self.amount
-
 if __name__ == "__main__":
     blockchain = Blockchain(4)
 
